@@ -1,4 +1,4 @@
-require "hang_human/version"
+require_relative "../config/env"
 
 module HangHuman
   class Error < StandardError; end
